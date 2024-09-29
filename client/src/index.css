@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif; 
+  color: #1a1a1a;
+  background-color: #e8e1d3; 
+  line-height: 1.6;
+}
+
+.gradient-bg-welcome {
+  background-color: #3c3b3b; 
+  background-image: radial-gradient(at 50% 50%, #4b4a4a 0%, #2c2b2b 100%);
+  border: 1px solid #7a6a56; 
+  padding: 20px;
+  color: #f5f5f5; 
+}
+
+.gradient-bg-services {
+  background-color: #3e3c3b;
+  background-image: radial-gradient(at 50% 0%, #5c5b5b 0%, #2d2d2d 100%);
+  border: 1px solid #7a6a56;
+  padding: 20px;
+  color: #f0f0f0; 
+}
+
+.gradient-bg-transactions {
+  background-color: #3b3a39;
+  background-image: radial-gradient(at 50% 100%, #595757 0%, #2c2b2b 100%);
+  border: 1px solid #7a6a56;
+  padding: 20px;
+  color: #ededed; 
+}
+
+.gradient-bg-footer {
+  background-color: #3a3938;
+  background-image: radial-gradient(at 50% 100%, #565454 0%, #2b2a29 100%);
+  border: 1px solid #7a6a56;
+  padding: 20px;
+  color: #f5f5f5;
+}
+
+.blue-glassmorphism {
+  background: linear-gradient(145deg, rgba(45, 55, 89, 0.5), rgba(45, 55, 89, 0.8));
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #ffffff;
+}
+
+.white-glassmorphism {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.1));
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  color: #ffffff;
+}
+
+.eth-card {
+  background-color: #35334a;
+  background-image: radial-gradient(at 50% 50%, rgba(152, 231, 156, 0.6), rgba(57, 104, 153, 0.6));
+  border: 1px solid #7a6a56;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #f5f5f5;
+}
+
+.text-gradient {
+  color: #f5f5f5;
+  background-image: radial-gradient(at 50% 50%, #f5f5f5, rgba(255, 255, 255, 0.5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
